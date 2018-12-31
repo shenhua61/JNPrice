@@ -1,0 +1,17 @@
+<!--bprint.wxml-->
+   <view style="display:none" bindtap='bindViewImg' >
+  <image style="width:100%;;margin-left:0%;margin-top:0px; background-color: #eeeeee;" mode="widthFix" bindtap='bindViewImg' src="{{bannerurl}}"></image>
+  </view>
+
+<view class="bigbutton" bindtap='toDetail'>
+<view  class="titlebox">ID:{{userid}}</view>
+<view style="display:none" class="subtitlebox">{{showstatus}}</view>
+<view  class="titlebox">金币:{{credit}}</view>
+</view>
+
+<view class='kefu'>
+<view class='titlebox'>欢迎加客服微信交流</view>
+<view class='titleboxd'>客服微信号：{{wxnum}}</view><view bindtap='setBo' class='kefud' data-wxnum='{{wxnum}}'>复制微信号</view>
+</view>
+ <navigator class="bigbutton"  style="height:150rpx;width:90%;margin-left:5%;float:left;color:#fff;background-color:#666;line-height:150rpx;text-align:center" target="miniProgram" open-type="navigate" app-id="wx6f5da9e100667d07" path="pages/index/index" extra-data="" version="release">看看北京新发地的菜价</navigator>
+<view style="margin-bottom:50rpx;width:90%;margin-left:5%;margin-right:5%;;margin-top:35rpx;float:left" ><ad style="border-radius:14rpx" unit-id="adunit-9faecfa51a96cd44"></ad></view>

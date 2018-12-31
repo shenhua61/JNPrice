@@ -1,0 +1,17 @@
+<!--pages/buyvege/coupon.wxml-->
+<view style="width:100%;height:100%;position:fixed;background-color:#eee;background-image:url('http://p4pantr41.bkt.clouddn.com/redpacket.png');background-repeat:no-repeat;background-size: 100% auto;">
+
+
+</view>
+<view style="margin:auto;width:400rpx;height:200rpx;position:absolute;top:100rpx;bottom:0;left:0;right:0;text-align:center;line-height:200rpx;font-size:80rpx;color:#FFD700">{{coins}}金币</view>
+<view style="position:fixed;bottom:150rpx;text-align:center;width:100%;color:#666">{{tips}}</view>
+<view style="position:fixed;bottom:110rpx;text-align:center;width:100%;color:#666;font-size:26rpx">金币可用于模拟卖菜，模拟卖菜根据真实价格进行交易</view>
+<view style="float:left;width:100%;height:110rpx"></view>
+<view class="bottombar" >
+  <view class="home" bindtap='toHome'><image style="height:40rpx;width:48rpx;" src="../res/home_small.png"></image><text>看价格</text>
+</view>
+ <view class="tshare" bindtap='toBuy'><image style="height:40rpx;width:48rpx;" src="../res/green_w.png"></image><text>模拟卖菜</text>
+</view>
+
+   
+</view>

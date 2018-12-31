@@ -1,0 +1,18 @@
+<!--pages/charts/stend.wxml-->
+<view class="ftitle">{{vegename}}近日价格走势</view>
+<view style="width:92%;margin-left:4%;margin-bottom:10rpx;margin-top:20rpx">
+  <ad unit-id="adunit-8654d16fab732143"></ad>
+  </view>
+
+<canvas style="width:{{width}}; height: 200px;" canvas-id="secondCanvas"></canvas>
+  <view style="width:92%;margin-left:4%;margin-bottom:10rpx;font-size:30rpx;color:#FF6347;">
+  提示:如果出现页面数据变形,返回后重新进来即可
+  </view>
+<view style="float:left;width:100%;height:110rpx"></view>
+<view class="bottombar" >
+  <view class="home" bindtap='toHome'><image style="height:40rpx;width:48rpx;" src="../res/home_small.png"></image><text>首页</text>
+</view>
+
+  <button  open-type="share" class="tshare"><image style="height:40rpx;width:50rpx;" src="../res/small_s.png"></image><text >分享</text></button>
+   
+</view>

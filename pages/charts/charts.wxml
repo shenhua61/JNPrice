@@ -1,0 +1,46 @@
+<view class="ftitle">{{vegename}}一年价格走势</view>
+<view class="dtitle">蔬菜图片</view>
+<view class="undertitle"></view>
+<image style="width:80%; height:{{pheight}};margin-left:10%;margin-top:10px; background-color: #eeeeee;" mode="aspectFit" src="{{vegeurl}}"></image>
+<view class="dtitle">一年走势图</view>
+<view class="undertitle"></view>
+<view style="height:28px"></view>
+<canvas style="width:{{width}}; height: 200px;" canvas-id="firstCanvas"></canvas>
+<view style="height:28px"></view>
+
+ <view style="width:92%;margin-left:4%;margin-bottom:10rpx;margin-top:20rpx">
+  <ad unit-id="adunit-9faecfa51a96cd44"></ad>
+  </view>
+<view class="dtitle">分月走势图</view>
+<view class="undertitle"></view>
+<view style="height:28px"></view>
+<view class="viewbar">
+<view class="smallview" hover-class="hoverview" data-id="1" bindtap='getmonth'>1月</view>
+<view class="smallview" hover-class="hoverview" data-id="2" bindtap='getmonth'>2月</view>
+<view class="smallview" hover-class="hoverview" data-id="3" bindtap='getmonth'>3月</view>
+<view class="smallview" hover-class="hoverview" data-id="4" bindtap='getmonth'>4月</view>
+<view class="smallview" hover-class="hoverview" data-id="5" bindtap='getmonth'>5月</view>
+<view class="smallview" hover-class="hoverview" data-id="6" bindtap='getmonth'>6月</view>
+</view>
+<view class="viewbar">
+<view class="smallview" hover-class="hoverview" data-id="7" bindtap='getmonth'>7月</view>
+<view class="smallview" hover-class="hoverview" data-id="8" bindtap='getmonth'>8月</view>
+<view class="smallview" hover-class="hoverview" data-id="9" bindtap='getmonth'>9月</view>
+<view class="smallview" hover-class="hoverview" data-id="10" bindtap='getmonth'>10月</view>
+<view class="smallview" hover-class="hoverview" data-id="11" bindtap='getmonth'>11月</view>
+<view class="smallview" hover-class="hoverview" data-id="12" bindtap='getmonth'>12月</view>
+</view>
+<canvas style="width:{{width}}; height: 200px;" canvas-id="secondCanvas"></canvas>
+
+  <view style="width:92%;margin-left:4%;margin-bottom:10rpx;font-size:30rpx;color:#FF6347;">
+  提示:如果出现页面数据变形,返回后重新进来即可
+  </view>
+
+  <view style="float:left;width:100%;height:110rpx"></view>
+<view class="bottombar" >
+  <view class="home" bindtap='toHome'><image style="height:40rpx;width:48rpx;" src="../res/home_small.png"></image><text>首页</text>
+</view>
+
+  <button  open-type="share" class="tshare"><image style="height:40rpx;width:50rpx;" src="../res/small_s.png"></image><text >分享</text></button>
+   
+</view>

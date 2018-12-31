@@ -1,0 +1,21 @@
+<view class="ftitle">云南菜价走势服务</view>
+<image style="width:30%;margin-left:35%;margin-top:10px; background-color: #eeeeee;" mode="widthFix" src="http://oanatg58v.bkt.clouddn.com/bighat.jpg"></image>
+<view style="height:10px"></view>
+<view style="height:20px;background-color:#efefef"></view>
+<view style="padding-left:3%;height:30px；line-height:30px;background-color:#efefef"><view>您正在购买:{{productname}}-菜价走势服务</view></view>
+<view style="height:20px;background-color:#efefef"></view>
+<view wx:for="{{productlist}}">
+  <view class="bigbox" wx:if="{{item.category==3}}">  
+   <view class="feetitle">壹月票</view><view class="mtitle">{{item.new_price}}元</view><view bindtap='createOrder' data-id="{{item.wares_id}}"  class="buybuttom">购买</view>
+  </view>
+  <view class="bigbox" wx:elif="{{item.category==1}}">  
+   <view class="feetitle">壹年票</view><view class="mtitle">{{item.new_price}}元</view><view bindtap='createOrder' data-id="{{item.wares_id}}" class="buybuttom">购买</view>
+  </view>
+</view>
+
+<view style="height:50px"></view>
+<view class="remarktitle">购买说明：</view>
+<view class="ditem">1.开通前请仔细确认品种。</view>
+<view class="ditem">2.您购买后，在有效期内凭票咨询我们的蔬菜专家。</view>
+<view class="ditem">3.购买后不支持退款。</view>
+

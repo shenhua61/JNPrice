@@ -1,0 +1,20 @@
+<!--pages/prolist/prolist.wxml-->
+ <view class="mname">菜价历史走势</view>
+ <view style="width:92%;margin-left:4%;margin-bottom:10rpx;margin-top:20rpx">
+  <ad unit-id="adunit-9faecfa51a96cd44"></ad>
+  </view>
+<view class="gbox" data-check='1' data-id='18' hover-class='downbox' bindtap='tomap'>菠菜</view>
+<view class="gbox" data-check='1' data-id='16' hover-class='downbox' bindtap='tomap'>春菜</view>
+<view class="gbox" data-check='1' data-id='34' hover-class='downbox' bindtap='tomap'>长豆角</view>
+<view class="gbox" data-check='1' data-id='51' hover-class='downbox' bindtap='tomap'>冬瓜</view>
+<view class="gbox" data-check='1' data-id='35' hover-class='downbox' bindtap='tomap'>青尖椒</view>
+<view class="gbox" data-check='1' data-id='43' hover-class='downbox' bindtap='tomap'>粉果番茄</view>
+<view  wx:for="{{productlist}}" wx:key="unique">
+  <view class="gbox" data-check='1' data-id='{{item.vegetable_id}}' hover-class='downbox' bindtap='tomap' wx:if="{{item.is_buy==1}}">{{item.group_name}}</view>
+  <view class="fbox" data-check='0' data-id='{{item.vegetable_id}}' hover-class='downbox' bindtap='tomap' wx:else>{{item.group_name}}</view>
+</view>
+
+
+
+
+

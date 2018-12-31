@@ -1,0 +1,9 @@
+<!--pages/buyvege/remark.wxml-->
+<view class="mname">模拟卖菜攻略</view>
+
+<view style="width:92%;margin-left:4%;color:#666">
+  <view class="ritem">1.每日打开“我的”页面,可以自动获得28个金币;</view>
+  <view class="ritem">2.每日在本页面可以免费给群好友发送金币红包1次,发多次,一个好友也只能领一次;</view>
+</view>
+
+<button  open-type="share" style="width:50%;height:100rpx;border-radius:50rpx;line-height:100rpx;margin-top:200rpx;background-color:#FF4040;color:#FFD700" ><text >免费发金币红包</text></button>

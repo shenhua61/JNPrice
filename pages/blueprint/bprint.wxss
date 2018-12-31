@@ -1,0 +1,82 @@
+/* bprint.wxss */
+.bigrow
+{
+  width:100%;
+  background-color: #a4c;
+  height: 400rpx; 
+  background-repeat:round;
+}
+.bigbutton
+{
+  width:90%;
+  margin-left: 5%;
+  height: 200rpx;
+  margin-top:35rpx;
+  background-color: #666;
+  border-radius: 14rpx;
+}
+.smallbox
+{
+  width:90%;
+  margin-left: 5%;
+  height: 248rpx;
+  margin-top: 35rpx;
+}
+.leftbox
+{
+  background-color:#579;
+  height:248rpx;
+  width:47%;
+  float:left;
+  border-radius: 5rpx;
+}
+.rightbox
+{
+  background-color:#669;
+  height:248rpx;
+  width:47%;
+  float:right;
+  border-radius: 5rpx;
+}
+.titlebox
+{
+  color:white;
+  font-size: 36rpx;
+  padding-top:10rpx;
+  padding-left:15rpx;
+}
+.subtitlebox
+{
+  color:white;
+  font-size: 20rpx;
+  padding-top:10rpx;
+  padding-left:15rpx;
+}
+.kefu
+{
+  width:90%;
+  margin-left: 5%;
+  height: 200rpx;
+  margin-top:35rpx;
+  background-color: #666;
+  border-radius:14rpx;
+}
+.titleboxd
+{
+  color:white;
+  font-size: 36rpx;
+  padding-top:10rpx;
+  padding-left:15rpx;
+  float:left
+}
+.kefud
+{
+  float:left;
+  background-color: #ff9900;
+  margin-left:10px;
+  padding-left:5px;
+  padding-right:5px;
+  margin-top:10rpx;
+  border-radius: 5rpx;
+  color:#fff;
+}

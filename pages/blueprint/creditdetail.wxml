@@ -1,0 +1,15 @@
+<!--pages/blueprint/creditdetail.wxml-->
+  <view class="mname">金币明细</view>
+
+  <view class="crebox"  wx:for="{{checkitem}}" wx:key="unique">
+   <view style="width:50%;float:left">
+    <view class='timestr'>{{item.ctimestr}}</view>
+   
+    <view style="height:80rpx;padding-top:20rpx;padding-left:20rpx">{{item.remark}}</view>
+    </view>
+    
+    <view style="height:150rpx;line-height:150rpx;width:40%;float:left;color:#EE7600;font-size:42rpx;text-align:right" wx:if="{{item.creditvalue>0}}">+{{item.creditvalue}}</view>
+    <view style="height:150rpx;line-height:150rpx;width:40%;float:left;color:#71C671;font-size:42rpx;text-align:right" wx:if="{{item.creditvalue<0}}">{{item.creditvalue}}</view>
+   
+  </view>
+  <view style="width:100%;text-align:center;font-size:28rpx;color:#ccc;margin-top:30rpx;padding-bottom:40rpx">最多显示最近20条记录</view>

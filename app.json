@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/newbox/index",
+    "pages/prolist/prolist",
+    "pages/newpage/prolist",
+    "pages/charts/charts",
+    "pages/showearth/showearth",
+    "pages/blueprint/bprint",
+    "pages/logs/logs",
+    "pages/earth/earth",
+    "pages/myearth/myearth",
+    "pages/myearth/checkearth",
+    "pages/pay/payorder",
+    "pages/pay/pay",
+    "pages/uncheck/uncheck",
+    "pages/article/index",
+    "pages/article/detail",
+    "pages/charts/stend",
+    "pages/blueprint/creditdetail",
+    "pages/buyvege/index",
+    "pages/buyvege/store",
+    "pages/buyvege/buyin",
+    "pages/buyvege/buy",
+    "pages/buyvege/historybuy",
+    "pages/buyvege/remark",
+    "pages/buyvege/coupon"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#71C671",
+    "navigationBarTitleText": "查菜价",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#555",
+    "backgroundColor": "#eee",
+    "selectedColor": "#71C671",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/res/home_un.png",
+        "selectedIconPath": "pages/res/home_s.png",
+        "text": "看价格"
+      },
+      {
+        "pagePath": "pages/prolist/prolist",
+        "text": "年走势",
+        "iconPath": "pages/res/book_un.png",
+        "selectedIconPath": "pages/res/book_s.png"
+      },
+      {
+        "pagePath": "pages/buyvege/index",
+        "text": "模拟卖菜",
+        "iconPath": "pages/res/green_un.png",
+        "selectedIconPath": "pages/res/green_s.png"
+      },
+      {
+        "pagePath": "pages/blueprint/bprint",
+        "text": "我的",
+        "iconPath": "pages/res/user_un.png",
+        "selectedIconPath": "pages/res/user_s.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx6f5da9e100667d07"
+  ]
+}

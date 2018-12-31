@@ -1,0 +1,74 @@
+/* pages/earth/earth.wxss */
+.submit
+{
+  margin-top: 30rpx;
+  background-color: #71C671;
+  color:white;
+  width:40%;
+
+}
+.reset
+{
+  margin-top: 30rpx;
+  background-color: #FA8072;
+  color:white;
+  width:40%;
+}
+.msbox
+{
+  border: 1px solid #aaa;
+  margin-top: 20rpx;
+  margin-left: 3%;
+  width:94%;
+  height:180rpx;  
+}
+.sbox
+{
+  border: 1px solid #aaa;
+  margin-top: 20rpx;
+  margin-left: 3%;
+  width:94%;
+  height:80rpx;
+  
+}
+.tbox
+{
+  color:#aaa;
+  font-size: 40rpx;
+  float:left;
+  width:25%;
+  line-height: 80rpx;
+ 
+  text-align:justify;
+  height:60rpx;
+  
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rbox
+{
+  margin-left: 2%;
+  float:left;
+  width:65%;
+  line-height:80rpx;
+}
+.mline
+{
+  float:left;
+  width:2rpx;
+  height:50rpx;
+  border-right: solid #aaa 0.5rpx;
+  margin-top: 15rpx;
+}
+.btn-area
+{
+  margin-top: 100rpx;
+}
+
+.rbox input
+{
+  line-height: 80rpx;
+  height:80rpx;
+}

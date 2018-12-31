@@ -1,0 +1,36 @@
+<!--pages/buyvege/store.wxml-->
+<view class="mname">我的历史持仓</view>
+
+<view style="width:100%;text-align:center;color:#666;margin-top:50rpx" wx:if="{{emptysign==0}}">您没有持仓，快去买入吧!</view>
+
+<view class="bitem"  wx:for="{{storelist}}" wx:key="unique">
+<view style="height:80rpx">
+  <view style="float:left;width:40%">
+
+  <view style="height:80rpx;line-height:80rpx;width:100%;font-size:34rpx;color:#666">{{index+1}}.{{item.vege_name}}</view>
+  </view>
+
+    <view style="float:left;width:40%">
+  <view class="eprice" style="color:#666" >持有:{{item.buy_count}}手</view> 
+  
+</view>
+
+  </view>
+<view style="height:50rpx;background-color:#eee;color:#666">
+<view style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left">成本:{{item.buy_price}}金币</view>
+<view style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left">卖出时间:{{item.stimestr}}</view>
+</view>
+<view style="height:50rpx;background-color:#eee;color:#666">
+<view style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left">卖出:{{item.sell_price}}金币</view>
+<view style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left">盈亏:{{item.profit}}金币</view>
+
+  <view style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left;color:red" wx:if="{{item.rate>0}}">{{item.rate}}%</view>
+  <view style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left;color:green" wx:elif="{{item.rate<0}}">{{item.rate}}%</view>
+  <view  style="height:50rpx;line-height:50rpx;font-size:30rpx;float:left;color:#666" wx:else>0%</view> 
+</view>
+</view>
+
+
+<view style="width:100%;float:left;height:30rpx"></view>
+
+

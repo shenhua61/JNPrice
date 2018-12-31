@@ -1,0 +1,55 @@
+/* pages/pay/pay.wxss */
+.ftitle
+{
+  text-align: center;
+  background-color: #efefef;
+  height: 50px;
+  line-height: 50px;
+}
+.bigbox
+{
+height:60px;
+line-height: 60px;
+border-bottom: solid #ccc 1rpx;
+width:94%;
+margin-left: 3%;
+}
+.feetitle
+{
+  float: left;  
+  width:120px;
+}
+.mtitle
+{
+  float:left;
+  color:#D4850A;
+  margin-left:15px;
+}
+.buybuttom
+{
+ background-color:#EEB422;
+ color:#fff;
+ border-radius: 15px;
+ float:right;
+ width:80px;
+ text-align: center;
+ height:30px;
+ line-height: 30px;
+ font-size: 15px;
+ margin-top: 15px;
+ margin-right: 15px;
+
+}
+
+.remarktitle
+{
+  margin-left:3%;
+  color:#666;
+  font-size: 15px;
+}
+.ditem
+{
+ color:#666;
+ margin-left: 5%;
+ font-size: 13px;
+}

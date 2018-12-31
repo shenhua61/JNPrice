@@ -1,0 +1,22 @@
+/* pages/buyvege/index.wxss */
+.mname{
+  text-align: center;
+  padding-bottom:25rpx;
+  padding-top:20rpx;
+  color:#333;
+  font-size:46rpx;
+}
+
+.item
+{
+  width:92%;
+  margin-left:4%;
+  float:left;
+  border-radius:14rpx;
+  background-color: #eaeaea;
+  margin-top:30rpx;
+  height:150rpx;
+  line-height:150rpx;
+  text-indent: 50rpx;
+  color:#666;
+}

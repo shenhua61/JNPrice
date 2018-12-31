@@ -1,0 +1,73 @@
+.outbox{
+  width:92%;
+  margin-left:4%;
+  border:solid #71C671 5rpx;
+  border-radius: 15rpx;
+  height:252rpx;
+  margin-top: 16rpx;
+}
+
+.outbox2{
+  width:92%;
+  margin-left:4%;
+  border:solid #ccc 5rpx;
+  border-radius: 15rpx;
+  height:252rpx;
+  margin-top: 16rpx;
+}
+.pimg
+{
+  /*border: solid blue 1rpx;*/
+  width:100rpx;
+  height:100rpx;
+  float:left;
+}
+.title
+{
+   height:100rpx;
+   line-height: 100rpx;
+   text-indent: 20rpx;
+   font-size:46rpx;
+   /*border: solid red 1rpx;*/
+}
+
+.title2
+{
+   height:100rpx;
+   line-height: 100rpx;
+   text-indent: 20rpx;
+   font-size:46rpx;
+   color:#ccc;
+   /*border: solid red 1rpx;*/
+}
+.topbox
+{
+  height:100rpx;
+  /*border: solid blue 1rpx;*/
+  width:100%
+}
+.quimg{
+  height:252rpx;
+  width:30%;
+  /*border: solid blue 1rpx;*/
+  float:right;
+}
+.leftbox{
+  float:left;
+  width:68%;
+}
+.pshow{
+  /*border: solid blue 1rpx;*/
+  text-indent: 60rpx;
+  font-size:30rpx;
+  color:#333;  
+  padding-left:20rpx;
+}
+
+.pshow2{
+  /*border: solid blue 1rpx;*/
+  text-indent: 60rpx;
+  font-size:30rpx;
+  color:#ccc;  
+  padding-left:20rpx;
+}

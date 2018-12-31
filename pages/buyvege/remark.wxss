@@ -1,0 +1,8 @@
+/* pages/buyvege/remark.wxss */
+.mname{
+  text-align: center;
+  padding-bottom:25rpx;
+  padding-top:20rpx;
+  color:#333;
+  font-size:46rpx;
+}

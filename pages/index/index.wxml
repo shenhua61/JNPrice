@@ -1,0 +1,54 @@
+<!--index.wxml-->
+ 
+  <view style="background-color:#fff;width:92%;margin-left:4%;">
+  <view class="mname">广州江南市场菜价</view>
+  <view class="mtime">当前价格日期:<view style="color:red">{{nowdate}} 13:00</view></view>
+  </view>
+  <view bindtap='toBuy' >
+  <image style="border-radius:14rpx;width:92%;;margin-left:4%;margin-top:10px; background-color: #eeeeee;" mode="widthFix"  src="{{topurl}}"></image>
+  </view>
+  <view style="width:92%;margin-left:4%;margin-bottom:10rpx;font-size:30rpx;color:#FF6347;">
+  提示:数据来自市场官网,更权威。点击菜名可以查看菜价近日走势
+  </view>
+  <view class="topbanner">
+  <view class="tnumindex">
+  序号
+  </view>
+  <view class="tvegetablename">菜名</view>
+  <view class="tnumindex">单位</view>
+
+  <view class="tpreprice">价格</view>
+  <view class="tupprice">升跌</view>
+  </view>
+  <view  wx:for="{{pricelist}}" wx:key="unique">
+  <view class="pricebox" data-id="{{item.vegetable_id}}" bindtap='toTend' >
+  <view class="numindex">
+  {{index+1}}
+  </view>
+  <view class="vegetablename" style="color:red" wx:if="{{item.grow_value>0}}">{{item.vegetable_name}}</view>
+  <view class="vegetablename" style="color:green" wx:elif="{{item.grow_value<0}}">{{item.vegetable_name}}</view>
+  <view class="vegetablename" style="color:#333" wx:else>{{item.vegetable_name}}</view>   
+  <view class="numindex" wx:if="{{item.unit=='件'}}">KG</view>
+  <view class="numindex" wx:else>{{item.unit}}</view>
+
+  <view class="preprice">{{item.s_price}}</view>
+  <view class="upprice" wx:if="{{item.growrate>0}}">{{item.growrate}}%</view>
+  <view class="downprice" wx:elif="{{item.growrate<0}}">{{item.growrate}}%</view>
+  <view class="eprice" style="color:#666" wx:else>-</view> 
+
+
+  </view>
+  <view style="width:92%;margin-left:4%;" wx:if="{{index==5 && isads==1}}"> <ad style="margin-top:30rpx;margin-bottom:30rpx;border-radius:14rpx" unit-id="adunit-9faecfa51a96cd44"></ad></view>
+
+  <view style="width:92%;margin-left:4%;" wx:if="{{(index==29 && isads==1) || (index==59 && isads==1)}}"> <ad style="margin-top:30rpx;margin-bottom:30rpx;border-radius:14rpx" unit-id="adunit-8654d16fab732143" ></ad></view>
+  </view>
+ <button open-type='share' style='margin-top:45rpx;margin-bottom:30rpx;width:40%;margin-left:30%;border:solid 0px #71C671;color:#fff;background-color:#71C671'>分享给朋友</button>
+
+
+  <view bindtap='bindViewImg' >
+  <image style="border-radius:14rpx;width:92%;;margin-left:4%;margin-top:10px; background-color: #eeeeee;" mode="widthFix" bindtap='bindViewImg' src="{{bannerurl}}"></image>
+  </view>
+
+  
+  <view style="height:30rpx;float:left;width:100%;"></view>
+

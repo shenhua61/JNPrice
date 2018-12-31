@@ -1,0 +1,6 @@
+ <view class="mname">模拟卖菜</view>
+ <view class="item" bindtap='toDetail'><view style="width:30%;float:left">我的金币</view><view style="float:left;text-indent:0;color:#FF8C00;font-size:40rpx;font-weight:bold">{{credit}}</view><view style="width:50rpx;height:50rpx;margin-top:50rpx;float:left;" ><image   mode="aspectFit" style="width:100%;height:100%;float:left;" src="/pages/res/coin.png"/></view></view>
+ <view  class="item" bindtap='toStore'>我的持仓</view>
+ <view  class="item" bindtap='buyIn'>我要买入</view>
+ <view  class="item" bindtap="exchangeLog" >历史交易记录</view>
+ <navigator class="item" url="remark"><view style="float:left">模拟卖菜攻略</view><view style="width:50rpx;height:50rpx;margin-top:50rpx;float:left;" ><image   mode="aspectFit" style="width:100%;height:100%;float:left;" src="/pages/res/redpacket_mini.png"/></view></navigator>

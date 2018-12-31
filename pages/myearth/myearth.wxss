@@ -1,0 +1,110 @@
+/* pages/showearth/showearth.wxss */
+.inbox
+{
+  width:96%;
+  margin-left:2%;
+  border-bottom: solid #aaa 1rpx;
+  height:280rpx;
+  font-size: 38rpx;
+  margin-top:20rpx;
+  
+}
+
+.cstrbox
+{
+  height:60rpx;
+}
+.contactbox
+{
+  width:100%;
+  font-size: 30rpx;
+  height: 40rpx;
+  
+  flex-flow: column;
+  margin-top:5rpx;
+}
+
+.addressbox
+{
+  width:100%;
+  font-size:30rpx;  
+  height:40rpx;
+  
+  margin-top:5rpx;
+}
+
+.squ
+{
+  color:red;
+  float: left;  
+  flex-flow: column;
+}
+.addt
+{
+  color:#aaa;
+  float:left;
+  padding-left:28rpx;
+  flex-flow: column;
+}
+.pubtime
+{
+  width:100%;
+  color:#aaa;
+  font-size: 30rpx;
+  height: 40rpx;
+ 
+  margin-top:5rpx;
+}
+.mobile
+{
+  font-size: 30rpx;
+  height: 40rpx;
+  float: left;  
+  flex-flow:column;
+  color:#000;
+  margin-right:20rpx;
+}
+.smark
+{
+  float: left;  
+  flex-flow: column;
+}
+
+.topbox
+{
+   
+   height:80rpx;
+   margin-top:20rpx;
+}
+
+.topitem
+{
+  width:38%;
+  margin-left:8%;
+  height:80rpx;
+  float: left;  
+  flex-flow:row;
+  border: solid 1rpx #71C671;
+  text-align:center;
+  border-radius: 6rpx;
+  line-height: 80rpx;
+  background-color: #71C671;
+  color:white;
+}/* pages/myearth/myearth.wxss */
+
+.s_stop
+{
+  
+  margin-left:8%;
+  float:right;
+}
+
+.s_del
+{  
+  margin-left:8%;
+  float:right;
+}
+
+.operabox{
+  margin-top: 15rpx;
+}

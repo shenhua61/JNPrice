@@ -1,0 +1,102 @@
+/**index.wxss**/
+.mname{
+  text-align: center;
+  padding-bottom:25rpx;
+  padding-top:20rpx;
+  color:#333;
+  font-size: 46rpx;
+}
+.mtime{
+  text-align: center;
+  padding-bottom:15rpx;
+  font-size: 28rpx;
+  color:#666;
+}
+.pricebox{
+  border-bottom:solid 1px #aaa;
+  width:92%;
+  margin-left:4%;
+  height:60rpx;
+  display:flex;
+  font-size:28rpx;
+}
+.numindex{
+ width:12%;
+ height:60rpx;
+ line-height: 60rpx; 
+ text-align:center;
+ color:#6C7B8B;
+}
+.vegetablename{
+ height:60rpx;
+ line-height:60rpx;
+ width:40%;
+ text-align:center;
+}
+.preprice{
+ width:15%;
+ height:60rpx;
+ line-height:60rpx; 
+ text-align:center;
+ color:#333;
+}
+.upprice{
+ width:20%;
+ height:60rpx;
+ line-height: 60rpx; 
+ text-align:center;
+ color:red;
+}
+.downprice{
+ width:20%;
+ height:60rpx;
+ line-height: 60rpx; 
+ text-align:center;
+ color:green;
+}
+.eprice{
+  width:15%;
+ height:60rpx;
+ line-height: 60rpx; 
+ text-align:center;
+ color:black;
+}
+
+.topbanner{
+  font-size: 28rpx;
+  border-bottom:solid 1px #aaa;
+  width:92%;
+  margin-left:4%;
+  height:60rpx;
+  display:flex;
+  background-color: #EE9A49;
+}
+
+.tvegetablename{
+ height:60rpx;
+ line-height:60rpx;
+ width:40%;
+ text-align:center;
+ color:#fff;
+}
+.tpreprice{
+ width:15%;
+ height:60rpx;
+ line-height:60rpx; 
+ text-align:center;
+ color:#fff;
+}
+.tupprice{
+ width:20%;
+ height:60rpx;
+ line-height: 60rpx; 
+ text-align:center;
+ color:#fff;
+}
+.tnumindex{
+ width:12%;
+ height:60rpx;
+ line-height: 60rpx; 
+ text-align:center;
+ color:#fff;
+}

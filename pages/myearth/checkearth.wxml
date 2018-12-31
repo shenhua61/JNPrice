@@ -1,0 +1,25 @@
+<view  wx:for="{{earthlist}}" wx:key="unique">
+      <view class="inbox">
+            <view class="cstrbox"> {{index+1}}.{{item.contentstr}}</view>                        
+            <view class="addressbox">
+               <view class="smark">面积:</view>
+               <view class="squ">{{item.square}}亩 </view>
+               <view class="addt">{{item.dist0}}{{item.dist1}}{{item.dist2}}</view>
+            </view>
+            <view class="contactbox">
+              <view class="smark">联系人:</view><view class="mobile">{{item.contactname}}</view>
+              <view class="mobile">{{item.mobile}}</view>
+            </view>
+            <view class="pubtime">发布时间:{{item.createtime}}</view>
+            <view class="operabox" >
+            <view class="s_stop">展示
+              <switch id="{{item.id}}" wx:if="{{item.is_show==1}}" checked bindchange="switch1Change"/>    
+              <switch id="{{item.id}}" wx:elif="{{item.is_show==0}}"  bindchange="switch1Change"/>               
+            </view>
+            <view class="s_del">置顶
+               <switch id="{{item.id}}" wx:if="{{item.is_top==1}}" checked bindchange="switch2Change"/>    
+              <switch id="{{item.id}}" wx:elif="{{item.is_top==0}}"  bindchange="switch2Change"/>                
+            </view>            
+            </view>
+      </view>
+</view>

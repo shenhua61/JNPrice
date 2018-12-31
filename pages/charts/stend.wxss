@@ -1,0 +1,42 @@
+/* pages/charts/stend.wxss */
+.ftitle
+{
+  text-align: center;
+  margin-top: 40rpx;
+  font-size:  46rpx;
+  color:#666;
+}
+
+.bottombar{
+  position: fixed;
+  bottom: 0;
+  height:100rpx;
+  background-color: red;
+  width:100%;
+}
+.home
+{
+ width:50%;
+ height:100rpx;
+ float:left;
+ background-color: #71C671;
+ color:#fff;
+ line-height:100rpx;
+ text-align:center;
+font-size:36rpx;
+}
+.tshare
+{
+  width:50%;
+  height:100rpx;
+  float:left;
+  background-color:#EE9572;
+  color:#fff;
+  line-height:105rpx;
+  text-align:center;
+  border-radius: 0rpx;
+  font-size:36rpx;
+}
+button::after{
+border: none;
+}

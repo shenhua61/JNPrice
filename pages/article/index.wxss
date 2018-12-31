@@ -1,0 +1,57 @@
+/* pages/article/index.wxss */
+page{
+  background-color: #eee;
+}
+.bigbox{
+  width:94%;
+  margin-left:3%;
+  min-height:240rpx;
+  border-radius:14rpx;
+  background-color:#fff;
+  margin-top:20rpx;
+  margin-bottom:50rpx;
+  margin-right:3%;
+  float:left;
+}
+
+.shortbox
+{
+  width:94%;
+  margin-left:3%;
+  margin-right:3%;
+  height:240rpx;
+  border-radius:14rpx;
+  background-color:#fff;
+  margin-top:20rpx;
+  margin-bottom:50rpx;
+  float:left;
+}
+
+.shortmarks
+{
+  height:80rpx;
+  background-color:#fff;
+  width:100%;
+  float:left;
+   border-top-left-radius: 14rpx;
+  border-top-right-radius: 14rpx;
+}
+
+.imgbox{
+  min-height:400rpx;
+  background-color:#fff;
+  width:100%;
+  float:left;
+  border-top-left-radius: 14rpx;
+  border-top-right-radius: 14rpx;
+}
+.imgborder
+{
+   border-top-left-radius: 14rpx;
+  border-top-right-radius: 14rpx;
+}
+.titlebox
+{
+   border-bottom-left-radius: 14rpx;
+  border-bottom-right-radius: 14rpx;
+}

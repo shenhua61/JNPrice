@@ -1,0 +1,21 @@
+<!--pages/buyvege/buyin.wxml-->
+<view class="bitem"  wx:for="{{pricelist}}" wx:key="unique">
+  <view style="float:left;width:40%">
+
+  <view style="height:80rpx;line-height:80rpx;width:100%;font-size:34rpx;color:#666">{{index+1}}.{{item.vegetable_name}}</view>
+  </view>
+
+    <view style="float:left;width:40%">
+     <view style="font-size:30rpx;width:50%;float:left;line-height:90rpx;height:90rpx">{{item.s_price}}</view>
+  <view class="upprice" wx:if="{{item.growrate>0}}">+{{item.growrate}}%</view>
+  <view class="downprice" wx:elif="{{item.growrate<0}}">{{item.growrate}}%</view>
+  <view class="eprice" style="color:#666" wx:else>0%</view> 
+  
+</view>
+
+  <view style="float:left;width:20%"  data-id="{{item.vegetable_id}}" bindtap='toBuy'><view class="buybtn">买入</view></view>
+
+</view>
+
+
+<view style="width:100%;float:left;height:30rpx"></view>

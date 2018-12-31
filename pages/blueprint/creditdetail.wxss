@@ -1,0 +1,27 @@
+/* pages/blueprint/creditdetail.wxss */
+.mname{
+  text-align: center;
+  padding-bottom:25rpx;
+  padding-top:20rpx;
+  color:#333;
+  font-size: 46rpx;
+}
+
+.crebox
+{
+  width:92%;
+  margin-left:4%;
+  height:150rpx;
+  border-radius: 14rpx;
+  background-color: #fff;
+  margin-bottom:20rpx;
+  border-bottom: solid #eee 1rpx;
+}
+
+.timestr
+{
+  color:#777;
+  font-size:26rpx;
+  margin-left:10rpx;
+  padding-top:20rpx;
+}

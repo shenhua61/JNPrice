@@ -1,0 +1,25 @@
+<!--pages/myearth/myearth.wxml-->
+<button wx:if="{{isadmin==1}}" bindtap="turncheckearth">进入审核</button>
+
+<view  wx:for="{{earthlist}}" wx:key="unique">
+      <view class="inbox">
+            <view class="cstrbox"> {{index+1}}.{{item.contentstr}}</view>                        
+            <view class="addressbox">
+               <view class="smark">面积:</view>
+               <view class="squ">{{item.square}}亩 </view>
+               <view class="addt">{{item.dist0}}{{item.dist1}}{{item.dist2}}</view>
+            </view>
+            <view class="contactbox">
+              <view class="smark">联系人:</view><view class="mobile">{{item.contactname}}</view>
+              <view class="mobile">{{item.mobile}}</view>
+            </view>
+            <view class="pubtime">发布时间:{{item.createtime}}</view>
+            <view class="operabox" >
+                <view class="s_stop">展示
+                  <switch id="{{item.id}}"  checked="{{item.is_usershow==1}}" bindchange="switch1Change"/>    
+                             
+                </view>
+              <button id="{{item.id}}" size="mini" type="warn" bindtap="delfun" class="s_del">删除</button>
+            </view>
+      </view>
+</view>

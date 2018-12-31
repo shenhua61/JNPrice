@@ -1,0 +1,4 @@
+<!--pages/uncheck/uncheck.wxml-->
+  <view>
+  <image style="width:92%;;margin-left:4%;margin-top:10px; background-color: #eeeeee;" mode="widthFix" bindtap='toImg' src="{{topurl}}"></image>
+  </view>

@@ -1,0 +1,47 @@
+/* pages/prolist/prolist.wxss */
+.ftitle
+{
+  text-align: center;
+  background-color: #efefef;
+  height: 50px;
+  line-height: 50px;
+}
+.fbox
+{
+  width:29.5%;
+  float:left;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height:34px;
+  color:#555;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  line-height: 34px;
+  background-color: #fff;
+}
+.gbox
+{
+  width:29.5%;
+  float:left;
+  text-align: center;
+  border: 1px solid #71C671;
+  border-radius: 3px;
+  height:34px;
+  margin-left: 2.5%;
+  margin-top: 10px;
+  line-height: 34px;
+  color:#fff;
+  background-color: #71C671;
+}
+.downbox
+{
+  color:#fff;
+  background-color: #71C671;
+  border: 1px solid #71C671;
+}
+.gdownbox
+{
+  background-color:#FFA07A;
+  border: 1px solid #FFA07A;
+}

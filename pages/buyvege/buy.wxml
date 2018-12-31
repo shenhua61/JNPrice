@@ -1,0 +1,24 @@
+<!--pages/buyvege/buy.wxml-->
+<view class="mname">模拟卖菜买入</view>
+
+<view class="box" ><view style="width:30%;float:left;text-align:right">持有金币:</view><view style="width:70%;float:left;color:#FF8C00">{{mycoins}}金币</view></view>
+<view class="box"><view style="width:30%;float:left;text-align:right">买入产品:</view><view style="width:70%;float:left">{{vname}}(保鲜期5天)</view></view>
+<view class="box"><view style="width:30%;float:left;text-align:right">当前价格:</view><view style="width:70%;float:left">{{sprice}}金币/手</view></view>
+
+<view style="line-height:120rpx;height:120rpx;color:#666">
+<view style="width:30%;float:left;text-align:right">买入数量:</view>
+<view style="width:70%;float:left"><input type="number"  bindinput="buyCount" style="border:solid 1rpx #FF8C00;width:50%;height:100rpx;margin-left:20rpx;font-size:40rpx;font-weight:bold;text-align:center;color:#FF8C00 " ></input>
+</view>
+</view>
+
+<view class="box"><view style="width:30%;float:left;text-align:right">金币总价:</view><view style="width:70%;float:left;color:#FF8C00;text-indent:20rpx">{{coins}}金币</view></view>
+<view style="width:30%;border-radius:14rpx;height:80rpx;margin-left:35%;margin-top:70rpx;text-align:center;background-color:#FF8C00;color:#fff;line-height:80rpx" bindtap='toBuy' >买入</view>
+
+<view style="text-indent:60rpx;font-size:34rpx;font-weight:bold;margin-top:100rpx;color:#666">交易说明</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">1.模拟买卖菜，价格根据市场实际报价;</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">2.每种蔬菜系统设定保鲜期;</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">3.持仓超过保鲜期;系统会在到期后强制卖出;</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">4.买入不收取手续费;</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">5.卖出收取交易额的1%,系统自动收取;</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">6.交易时间为下午2点到次日早上9点;</view>
+<view style="text-indent:60rpx;font-size:28rpx;margin-top:6rpx;color:#666">7.模拟卖菜仅供娱乐。</view>
